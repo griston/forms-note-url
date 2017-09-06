@@ -1,0 +1,50 @@
+{
+    "name": "griston/forms-note-url",
+    "description": "Form/NoteUrl control for Nette Forms.",
+    "version": "1.0.0",
+
+    "homepage": "http://www.griston.net",
+    "type": "library",
+    "keywords": ["nette", "forms", "control", "url"],
+
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "David Skála",
+            "email": "skala2524@gmail.com",
+            "homepage": "http://www.griston.net"
+        }
+    ],
+
+    "support": {
+        "issues": "https://github.com/griston/forms-url/issues",
+        "source": "https://github.com/griston/forms-url"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Griston\\Forms\\Controls\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=5.6",
+        "nette/forms": ">2.4"
+    },
+
+    "archive": {
+        "exclude": [
+            ".coveralls.yml",
+            ".gitattributes",
+            ".gitignore",
+            "/.travis.yml",
+            "/.travis.composer.php",
+            "/build",
+            "/tests"
+        ]
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
